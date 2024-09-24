@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+</head>
+<body>
+<!-- Sign-up form start -->
+
+  <div id="big-container">
+    <div>
+      <picture>
+        <source id="desktoppic" srcset="assets/images/illustration-sign-up-desktop.svg" media="(min-width:900px">
+        <img id="bigpic" src="assets/images/illustration-sign-up-mobile.svg" alt="pic">
+
+      </picture>
+    </div>
+    <main>
+        <h1>Stay updated!</h1>
+
+        <p id="join">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <div class="list">
+            <img class="listicon" src="assets/images/icon-list.svg" alt="listicon">
+            <p class="description p1">Product discovery and building what matters</p>
+        </div>
+        
+
+        <div class="list">
+            <img class="listicon" src="assets/images/icon-list.svg" alt="listicon">
+            <p class="description p2">Measuring to ensure updates are a success</p>
+        </div>
+
+        <div class="list">
+          <img  class="listicon" src="assets/images/icon-list.svg" alt="listicon">
+          <p class="description p3">And much more!</p>
+        </div>
+            
+        <div id="emaildiv">
+            <form>
+            <div id = "labelRow" class="item>">
+                <label id = "label" class="item" for="email">Email address</label>
+                <span id="invalidmessage"></span>
+            </div>
+            <input id ="js-input" class="item" type="email" value="email@company.com"
+              placeholder="email@company.com" required>
+             <button class="item js-subscribe" type="button">Subscribe to monthly newsletter</button>
+            </form>
+            </div>
+    </main>
+
+
+  </div>
+  
+
+  
+
+  
+  
+
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+ 
+
+  <!-- Success message end -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">J.T.</a>.
+  </div>
+
+  <script src="newsletter.js"></script>
+</body>
+</html>
